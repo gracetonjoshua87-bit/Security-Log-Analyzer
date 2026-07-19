@@ -1,0 +1,31 @@
+text,label
+User admin logged in successfully from 10.0.0.5,Normal
+Accepted password for jdoe from 192.168.1.20 port 22,Normal
+GET /index.html 200 OK,Normal
+Session opened for user alice,Normal
+User logout successful,Normal
+Scheduled backup completed,Normal
+Config file loaded successfully,Normal
+Heartbeat OK from server-01,Normal
+Database connection established,Normal
+File uploaded by user bob successfully,Normal
+Failed login attempt for user admin from 203.0.113.5,Suspicious
+Authentication failure for user root,Suspicious
+Invalid password for user administrator,Suspicious
+Multiple failed login attempts detected,Suspicious
+Firewall blocked incoming connection from 198.51.100.7,Suspicious
+Suspicious user agent detected in request,Suspicious
+Port scan detected on host from 172.16.0.99,Suspicious
+nmap scan reported from external IP,Suspicious
+High volume of requests from single IP,Suspicious
+Unauthorized access attempt to /admin,Suspicious
+SQL injection attempt UNION SELECT * FROM users,Critical
+XSS payload detected <script>alert('xss')</script>,Critical
+Directory traversal attempt GET /../../../etc/passwd,Critical
+Malware detected Trojan.Win32.Generic on host,Critical
+Ransomware activity detected encrypting files,Critical
+Privilege escalation attempt by user guest to root,Critical
+Brute force attack detected 50 failed logins,Critical
+Rootkit signature detected on host,Critical
+Backdoor communication detected to C2 server,Critical
+Web shell uploaded to server,Critical

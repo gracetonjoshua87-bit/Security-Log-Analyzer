@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# SQLite
+*.db
+*.sqlite3
+
+# Uploads & generated
+backend/uploads/
+backend/reports/
+backend/ml_models/*.joblib
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Env
+.env

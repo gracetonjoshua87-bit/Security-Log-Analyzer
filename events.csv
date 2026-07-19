@@ -1,0 +1,21 @@
+timestamp,username,source_ip,destination_ip,event_type,status,message
+2024-07-01 09:00:00,alice,10.0.0.1,10.0.0.100,login_success,SUCCESS,User alice logged in successfully
+2024-07-01 09:05:00,admin,203.0.113.5,10.0.0.100,login_failed,FAILED,Failed password for admin
+2024-07-01 09:05:10,admin,203.0.113.5,10.0.0.100,login_failed,FAILED,Failed password for admin
+2024-07-01 09:05:20,admin,203.0.113.5,10.0.0.100,login_failed,FAILED,Failed password for admin
+2024-07-01 09:05:30,admin,203.0.113.5,10.0.0.100,login_failed,FAILED,Failed password for admin
+2024-07-01 09:05:40,admin,203.0.113.5,10.0.0.100,login_failed,FAILED,Failed password for admin
+2024-07-01 09:05:50,admin,203.0.113.5,10.0.0.100,login_failed,FAILED,Failed password for admin
+2024-07-01 09:10:00,attacker,45.77.65.10,10.0.0.100,sql_injection,BLOCKED,UNION SELECT * FROM users --
+2024-07-01 09:11:00,attacker,45.77.65.10,10.0.0.100,xss,BLOCKED,<script>alert('xss')</script>
+2024-07-01 09:12:00,attacker,45.77.65.10,10.0.0.100,directory_traversal,BLOCKED,GET /../../etc/passwd
+2024-07-01 09:15:00,bob,192.168.1.20,10.0.0.100,login_success,SUCCESS,User bob logged in
+2024-07-01 09:20:00,scanner,91.121.45.6,10.0.0.100,port_scan,BLOCKED,nmap SYN scan detected
+2024-07-01 09:25:00,carol,10.0.0.2,10.0.0.100,login_success,SUCCESS,User carol logged in
+2024-07-01 09:30:00,guest,10.0.0.3,10.0.0.100,privilege_escalation,DENIED,sudo attempt by user guest
+2024-07-01 09:35:00,,198.51.100.7,10.0.0.100,malware,BLOCKED,Trojan.Win32.Generic detected
+2024-07-01 09:40:00,alice,10.0.0.1,10.0.0.100,logout,SUCCESS,User alice logged out
+2024-07-01 09:45:00,dave,10.0.0.4,10.0.0.100,login_success,SUCCESS,User dave logged in
+2024-07-01 09:50:00,eve,10.0.0.5,10.0.0.100,login_failed,FAILED,Invalid password for eve
+2024-07-01 09:55:00,,172.16.0.99,10.0.0.100,firewall_block,BLOCKED,Dropped suspicious packet
+2024-07-01 10:00:00,frank,10.0.0.6,10.0.0.100,login_success,SUCCESS,User frank logged in

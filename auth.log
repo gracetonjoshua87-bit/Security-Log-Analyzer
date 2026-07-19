@@ -1,0 +1,30 @@
+2024-05-01 08:12:34 sshd[1201]: Accepted password for jdoe from 192.168.1.20 port 22 ssh2
+2024-05-01 08:15:02 sshd[1202]: Failed password for user admin from 203.0.113.5 port 22 ssh2
+2024-05-01 08:15:07 sshd[1203]: Failed password for user admin from 203.0.113.5 port 22 ssh2
+2024-05-01 08:15:12 sshd[1204]: Failed password for user admin from 203.0.113.5 port 22 ssh2
+2024-05-01 08:15:18 sshd[1205]: Failed password for user admin from 203.0.113.5 port 22 ssh2
+2024-05-01 08:15:24 sshd[1206]: Failed password for user admin from 203.0.113.5 port 22 ssh2
+2024-05-01 08:15:31 sshd[1207]: Failed password for user admin from 203.0.113.5 port 22 ssh2
+2024-05-01 08:16:00 sshd[1208]: Account locked for user admin due to too many failed attempts
+2024-05-01 09:02:12 sshd[1310]: Accepted password for alice from 10.0.0.50 port 22 ssh2
+2024-05-01 09:15:44 sudo: user bob : sudo command executed - privilege escalation to root
+2024-05-01 10:00:00 web[2001]: GET /login?user=' OR '1'='1 HTTP/1.1 from 45.33.32.156
+2024-05-01 10:00:05 web[2002]: GET /search?q=<script>alert('xss')</script> HTTP/1.1 from 45.33.32.156
+2024-05-01 10:00:12 web[2003]: GET /../../../etc/passwd HTTP/1.1 from 45.33.32.156
+2024-05-01 10:05:00 firewall[3001]: Blocked incoming connection from 198.51.100.7 port scan detected (nmap)
+2024-05-01 10:10:00 av[4001]: Malware detected: Trojan.Win32.Generic on host DESKTOP-05
+2024-05-01 11:00:00 sshd[1500]: Accepted password for carol from 172.16.0.10 port 22 ssh2
+2024-05-01 11:30:00 sshd[1501]: Session closed for user carol
+2024-05-01 12:00:00 web[2100]: GET /index.html HTTP/1.1 200 OK from 192.168.1.30
+2024-05-01 12:15:00 dhcp: DHCP lease renewed for 192.168.1.15
+2024-05-01 13:00:00 backup: Scheduled backup completed successfully
+2024-05-01 14:00:00 sshd[1600]: Failed password for user root from 91.121.45.6 port 22 ssh2
+2024-05-01 14:00:05 sshd[1601]: Failed password for user root from 91.121.45.6 port 22 ssh2
+2024-05-01 14:00:10 sshd[1602]: Failed password for user root from 91.121.45.6 port 22 ssh2
+2024-05-01 14:00:15 sshd[1603]: Failed password for user root from 91.121.45.6 port 22 ssh2
+2024-05-01 14:00:20 sshd[1604]: Failed password for user root from 91.121.45.6 port 22 ssh2
+2024-05-01 14:00:25 sshd[1605]: Failed password for user root from 91.121.45.6 port 22 ssh2
+2024-05-01 14:00:30 sshd[1606]: Failed password for user root from 91.121.45.6 port 22 ssh2
+2024-05-01 15:00:00 firewall[3050]: Dropped packet from 172.16.0.99 - port scan syn scan
+2024-05-01 16:00:00 web[2200]: GET /admin HTTP/1.1 401 Unauthorized from 8.8.8.8
+2024-05-01 17:00:00 system: User logout successful for alice
